@@ -2,19 +2,12 @@
   {
     "Id": "vscode",
     "Name": "Visual Studio Code",
-    "Description": "Code editor by Microsoft",
-    "IconUrl": "https://code.visualstudio.com/assets/images/code-stable.png",
-    "Repo": "microsoft/vscode",
-    "InstallerPattern": "VSCodeUserSetup-x64-(.*).exe",
-    "Uninstaller": "%localappdata%\\Programs\\Microsoft VS Code\\unins000.exe"
-  },
-  {
-    "Id": "notepadplusplus",
-    "Name": "Notepad++",
-    "Description": "A free source code editor.",
-    "IconUrl": "https://notepad-plus-plus.org/images/logo.svg",
-    "Repo": "notepad-plus-plus/notepad-plus-plus",
-    "InstallerPattern": "npp.(.*).Installer.x64.exe",
-    "Uninstaller": "%ProgramFiles%\\Notepad++\\uninstall.exe"
+    "Description": "Powerful code editor by Microsoft.",
+    "Version": "1.80",
+    "Publisher": "Microsoft",
+    "Category": "Development",
+    "RepoUrl": "https://github.com/microsoft/vscode",
+    "DownloadUrl": "https://update.code.visualstudio.com/latest/win32-x64-user/stable",
+    "IconUrl": "https://raw.githubusercontent.com/microsoft/vscode/main/resources/linux/code.png"
   }
 ]
