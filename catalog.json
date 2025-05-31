@@ -1,24 +1,20 @@
 [
   {
-    "id": "7zip",
-    "name": "7-Zip",
-    "author": "Igor Pavlov",
-    "repo": "7zip/7zip",
-    "installer_pattern": "x64.exe",
-    "silent_args": "/S",
-    "uninstall_arg": "/uninstall",
-    "detect_path": "C:\\Program Files\\7-Zip\\7z.exe",
-    "description": "File archiver with high compression ratio."
+    "Id": "vscode",
+    "Name": "Visual Studio Code",
+    "Description": "Code editor by Microsoft",
+    "IconUrl": "https://code.visualstudio.com/assets/images/code-stable.png",
+    "Repo": "microsoft/vscode",
+    "InstallerPattern": "VSCodeUserSetup-x64-(.*).exe",
+    "Uninstaller": "%localappdata%\\Programs\\Microsoft VS Code\\unins000.exe"
   },
   {
-    "id": "notepadplusplus",
-    "name": "Notepad++",
-    "author": "Don Ho",
-    "repo": "notepad-plus-plus/notepad-plus-plus",
-    "installer_pattern": "Installer.x64.exe",
-    "silent_args": "/S",
-    "uninstall_reg": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Notepad++",
-    "detect_path": "C:\\Program Files\\Notepad++\\notepad++.exe",
-    "description": "Source code editor and Notepad replacement."
+    "Id": "notepadplusplus",
+    "Name": "Notepad++",
+    "Description": "A free source code editor.",
+    "IconUrl": "https://notepad-plus-plus.org/images/logo.svg",
+    "Repo": "notepad-plus-plus/notepad-plus-plus",
+    "InstallerPattern": "npp.(.*).Installer.x64.exe",
+    "Uninstaller": "%ProgramFiles%\\Notepad++\\uninstall.exe"
   }
 ]
